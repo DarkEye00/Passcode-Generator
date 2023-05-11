@@ -1,6 +1,6 @@
 import random
 
-
+#define a function that will perform the random shuffling of the Password
 def shuffle(string):
     tempList = list(string)
     random.shuffle(tempList)
